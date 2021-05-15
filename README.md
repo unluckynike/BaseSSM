@@ -35,6 +35,17 @@
 
 修改你的数据库名，数据库用户名密码，mysql8.0以上须在url添加时区。
 
+
+## FAQ
+
+```
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicationContext.xml] cannot be opened because it does not exist at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:343) at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303) at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+```
+
+[stack overflow](https://stackoverflow.com/questions/3907833/spring-applicationcontext-xml-cannot-be-opened-because-it-does-not-exist)
+
+
+
 ## License
 
 ```
